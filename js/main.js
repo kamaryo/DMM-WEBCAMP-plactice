@@ -2,7 +2,7 @@ var username;
 var userresult;
 username = prompt("名前を教えてください");
 if(username == ''){
-    username = '名無し';
+    username = "名無し";
 }
 document.getElementById('name').innerHTML = username;
 
